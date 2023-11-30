@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  margin: 20px;
+  padding: 20px;
+  background-color: #dddddd;
+  border: black 2px solid;
+}
+
+.row {
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+}
