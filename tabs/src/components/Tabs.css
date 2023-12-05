@@ -1,0 +1,36 @@
+.component {
+    display: flex;
+    flex-direction: column;
+    border: black solid 1px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.tabs {
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+}
+
+.oneTab {
+    border: black solid 1px;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.oneTab:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+.content {
+    text-align: center;
+    margin-top: 40px;
+    border: black solid 1px;
+    width: 75%;
+    height: 100px;
+    padding: 30px;
+}
